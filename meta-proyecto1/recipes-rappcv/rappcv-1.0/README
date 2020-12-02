@@ -1,3 +1,10 @@
+A continuación, se pueden ver los comandos que se pueden utilizar desde la terminal de la máquina destino en donde se instala la imagen creada en Yocto. 
+El primero es utilizado para realizar la detección de personas en video, el segundo en imágenes y el tercero es para activar la cámara web de la imagen y recibir video para analizar de ahí. 
+La aplicación al ejecutar uno de estos 3 primeros comandos genera un Output. Por ejemplo, si es una imagen, la aplicación genera esa misma imagen pero le añade cuadros que identifican personas presentes en la imagen.
+Además, realiza el conteo de la cantidad de personas que se encuentran en la imagen. 
+Con el comando 4. se puede guardar el output generado y llamarle como se quiera a ese nuevo archivo de salida generado. Este se almacena en la máquina y está listo para ser enviado a una máquina host. 
+
+
 1. To give video file as input:
 
 python3 appcv.py -v ‘Path_to_video’
