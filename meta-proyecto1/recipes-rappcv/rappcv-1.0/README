@@ -1,0 +1,15 @@
+1. To give video file as input:
+
+python3 appcv.py -v ‘Path_to_video’
+
+2. To give image file as input:
+
+python3 appcv.py -i ‘Path_to-image’
+
+3. To use the camera:
+
+python3 appcv.py -c True
+
+4. To save the output:
+
+Python3 appcv.py -c True -o ‘file_name’
