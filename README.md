@@ -17,3 +17,5 @@ se completa el proceso.
 9. En el caso de querer instalarla en máquina virtual se realiza el mismo procedimiento pero en vez de definir la MACHINE TARGET como qemux86-64, se define como genericx86-64 para que así sea capaz de soportar máquinas con procesadores como el intel i-core. 
 10. Una vez definido lo anterior se procede de igual forma a hacerle build al environment y utilizar bitbake core-image-sato. Se debe buscar en: ../poky-warrior/build/tmp/deploy/genericx86-64/genericx86.iso
 11. Ese archivo .iso se puede incluir en la máquina virtual de Virtual Box y configurar su ejecución para que la imagen sea instalada en esa máquina. 
+
+En el directorio build se encuentra el directorio conf con los archivos local.conf, bblayers.conf y templateconf.cfg tal y como debe ir segun el resto de meta-layers obtenidas.
